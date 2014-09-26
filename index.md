@@ -1,6 +1,8 @@
 ---
 ---
 
+#Jon
+
 ##Blog Post
   * [Day One](2014/09/22firstWeek.md)
   * [Day Two](2014/09/23secondDay.md)
