@@ -1,8 +1,4 @@
 
-h2{
-  color: red;
-}
-
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -30,7 +26,6 @@ h2{
   border-left: 1px solid rgba(255, 255, 255, 0.15);
 }
 #cssmenu ul {
-  background: ;
   background: -moz-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
   background: -webkit-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
   background: -o-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
