@@ -1,5 +1,5 @@
 ---
-layouts:default.html
+layouts:defaults
 ---
 
 
