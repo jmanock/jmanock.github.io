@@ -1,7 +1,15 @@
 ---
 ---
-
-#Jon
+<head>
+    <link rel="stylesheet" type="text/css" href="defaults.css">
+</head>
+<div id='cssmenu'>
+	<ul>
+	   <li><a href='#'><span>Home</span></a></li>
+	   <li><a href='#'><span>Products</span></a></li>
+	   <li><a href='#'><span>Company</span></a></li>
+	   <li><a href='#'><span>Contact</span></a></li>
+	</ul>
 
 ## Blog Post
   * [Day One](2014/09/22/firstWeek.html)
