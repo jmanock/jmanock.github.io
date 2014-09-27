@@ -1,5 +1,5 @@
 ---
-layout:defaults
+layout: defaults
 ---
 
 
@@ -12,5 +12,5 @@ layout:defaults
 
 
 ## Portfolio 
-  * [ ](https://github.com/jmanock/TIY-Assenments)
-  * [ ](https://github.com/jmanock/jmanock.github.io)
+  * [Git](https://github.com/jmanock/TIY-Assenments)
+  * [hub](https://github.com/jmanock/jmanock.github.io)
