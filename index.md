@@ -1,4 +1,5 @@
 ---
+includes:defaults.html
 ---
 
 ## Blog Post
