@@ -1,5 +1,7 @@
 ---
+layouts:default.html
 ---
+
 
 ## Blog Post
   * [Day One](2014/09/22/firstWeek.html)
