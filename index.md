@@ -1,8 +1,8 @@
 ---
+layouts:default.html
 ---
 
 
-{% include defaults.html %}
 ## Blog Post
   * [Day One](2014/09/22/firstWeek.html)
   * [Day Two](2014/09/23/secondPost.html)
