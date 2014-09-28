@@ -112,6 +112,45 @@ h2{
 	   <li><a href='http://jmanock.github.io'><span>Contact</span></a></li>
 	</ul>
 </div>
+ <div id="container"></div>
+    <script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.2.min.js"></script>
+    <script defer="defer">
+      function drawImage(imageObj) { 
+        var stage = new Kinetic.Stage({
+          container: "container",
+          width: 1578,
+          height: 1200
+        });
+        var layer = new Kinetic.Layer();
+
+        // darth vader
+        var darthVaderImg = new Kinetic.Image({
+          image: imageObj,
+          x: 400,
+          y: 300,
+          width: 200,
+          height: 137,
+          draggable: true
+        });
+
+        // add cursor styling
+        darthVaderImg.on('mouseover', function() {
+          document.body.style.cursor = 'pointer';
+        });
+        darthVaderImg.on('mouseout', function() {
+          document.body.style.cursor = 'default';
+        });
+
+        layer.add(darthVaderImg);
+        stage.add(layer);
+      }
+      var imageObj = new Image();
+      imageObj.onload = function() {
+        drawImage(this);
+      };
+      imageObj.src = 'http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg';
+
+    </script>
         <headder>
             
         </headder>
