@@ -12,5 +12,5 @@ layout: default
 
 
 ## Portfolio 
-  * [Git](https://github.com/jmanock/TIY-Assenments)
-  * [hub](https://github.com/jmanock/jmanock.github.io)
+  * [TIY Assenments](https://github.com/jmanock/TIY-Assenments)
+  * [GitHub Pages](https://github.com/jmanock/jmanock.github.io)
