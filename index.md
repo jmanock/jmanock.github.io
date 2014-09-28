@@ -11,6 +11,6 @@ layout: default
   * [Day Five](2014/09/26/fithDay.html)
 
 
-## Portfolio 
+## Portfolio
   * [TIY Assenments](https://github.com/jmanock/TIY-Assenments)
   * [GitHub Pages](https://github.com/jmanock/jmanock.github.io)
