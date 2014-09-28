@@ -2,4 +2,4 @@
 layout: default
 ---
 
-#My Fourth Day
+## Day Number Four
