@@ -118,8 +118,8 @@ h2{
       function drawImage(imageObj) { 
         var stage = new Kinetic.Stage({
           container: "container",
-          width: 1578,
-          height: 1200
+          width: 578,
+          height: 200
         });
         var layer = new Kinetic.Layer();
 
@@ -127,7 +127,7 @@ h2{
         var darthVaderImg = new Kinetic.Image({
           image: imageObj,
           x: 400,
-          y: 300,
+          y: 30,
           width: 200,
           height: 137,
           draggable: true
@@ -148,7 +148,7 @@ h2{
       imageObj.onload = function() {
         drawImage(this);
       };
-      imageObj.src = 'http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg';
+      imageObj.src = 'http://addyosmani.com/polyfillthehtml5gaps/images/octocat.jpg';
 
     </script>
         <headder>
