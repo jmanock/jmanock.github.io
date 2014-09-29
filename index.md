@@ -12,5 +12,5 @@ layout: default
 
 
 ## Portfolio
-  * [TIY Assenments](https://github.com/jmanock/TIY-Assenments)
-  * [GitHub Pages](https://github.com/jmanock/jmanock.github.io)
+  * [TIY Assignment](https://github.com/jmanock/TIY-Assenments)
+  * [The Iron Yard](https://github.com/jmanock/jmanock.github.io)
