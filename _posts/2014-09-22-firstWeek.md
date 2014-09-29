@@ -3,4 +3,6 @@ layout: default
 ---
 ## My First Day 
 
-Well, it was something. I never thought that I would be back in school and all day on top of that. Everyone says that Programing Bootcamp is just like the military bootcamp and going in I had my doubts. The first day was a real wakeup call with all the work that we had to do but everyone in my class is really helpful and we are all going to get threw this together. I can’t wait to see what day two brings. 
+I never thought that I would be back in school, but here I am day one of a twelve week course. I am not sure what I expected, just keep an open mind and think of the long term advantages finishing the course will have. Day one went by really fast, everyone met each other the night before at dinner orientation, so we dove right into working and learning. 
+
+The first week is going to be on learning git and git hub which is really cool for me. It’s something that I have always wanted to learn and been fascinated by using the terminal. We got lots of work to do tonight which I always expect. 
