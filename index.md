@@ -9,6 +9,7 @@ layout: default
   * [Day Three](2014/09/24/thirdPost.html)
   * [Day Four](2014/09/25/fourthDay.html)
   * [Day Five](2014/09/26/fithDay.html)
+  * [Week Two](2014/10/5/Week Two.html)
 
 
 ## Portfolio
