@@ -9,8 +9,9 @@ layout: default
   * [Day Three](2014/09/24/thirdPost.html)
   * [Day Four](2014/09/25/fourthDay.html)
   * [Day Five](2014/09/26/fithDay.html)
+  * [Week Two](2014/10/5/Week Two.html)
 
 
-## Portfolio 
-  * [TIY Assenments](https://github.com/jmanock/TIY-Assenments)
-  * [GitHub Pages](https://github.com/jmanock/jmanock.github.io)
+## Portfolio
+  * [TIY Assignment](https://github.com/jmanock/TIY-Assenments)
+  * [The Iron Yard](https://github.com/jmanock/jmanock.github.io)
