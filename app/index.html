@@ -7,6 +7,7 @@
     <title>jmanock github io</title>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- build:css styles/vendor.css -->
@@ -16,49 +17,38 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/skel.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-wide.css">
+    <link rel="stylesheet" href="styles/style-noscript.css">
+
     <!-- endbuild -->
     
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
   </head>
-  <body>
+  <body class='loading'>
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">jmanock github io</h3>
-      </div>
-
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-          
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-          
-        </div>
-      </div>
-
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
-      </div>
+    <div id='wrapper'></div>
+    <div id='overlay'></div>
+    <div id='main'>
+      <header id='header'>
+        <h1>Jon Manock</h1>
+        <p>Front-End Developer</p>
+        <nav>
+          <ul>
+            <li><a href="#" class='icon fa fa-twitter'><span class='label'>Twitter</span></a></li>
+            <li><a href="#" class='icon fa fa-linkedin'><span class='label'>LinkedIn</span></a></li>
+            <li><a href="#" class='info icon fa fa-info'><span class='label'>Contact</span></a></li>
+          </ul>
+        </nav>
+      </header>
+      <footer id='footer'>
+        <p>&copy; Jon Manock | 2015</p>
+      </footer>
     </div>
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
