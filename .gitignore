@@ -8,3 +8,4 @@ test/bower_components
 .editorconfig
 .yo-rc.json
 .gitattributes
+.DS_Store
