@@ -7,7 +7,7 @@
     <title>jmanock github io</title>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
     <!-- Place favicon.ico in the root directory -->
 
     <!-- build:css styles/vendor.css -->
@@ -16,7 +16,7 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+     <link rel="stylesheet" href="styles/main.css"> 
 
     <!-- endbuild -->
     
@@ -24,40 +24,37 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
   </head>
-  <body class='loading'>
+  <body class="loading">
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+
+        <!-- Header -->
+          <header id="header">
+            <h1>Jon Manock</h1>
+            <p>Front-End Developer</p>
+            <nav>
+              <ul>
+                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+                <li><a href="#" class="icon fa-info"><span class="label"></span>More</a></li>
+                <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+              </ul>
+            </nav>
+          </header>
+
+        <!-- Footer -->
+          <footer id="footer">
+            <span class="copyright">&copy; JonManock | 2015</span>
+          </footer>
+
+      </div>
+    </div>
+    </body>
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div id='wrapper'>
-      <div id='bg'></div>
-      <div id='overlay'></div>
-      <div id='main'>
-        <header id='header'>
-          <h1>Jon Manock</h1>
-          <p>Front-End Developer</p>
-          <nav>
-            <ul>
-              <li>
-                <a href="#" class='icon fa-twitter'><span class='label'>Twitter</span></a>
-              </li>
-              <li>
-                <a href="#" class='icon fa-github'><span class='label'>GitHub</span></a>
-              </li>
-              <li>
-                <a href="#" class='icon fa-envelope'><span class='label'>Email</span></a>
-              </li>
-              <li>
-                <a href="#" class='icon fa-info'><span class='label'>Projects</span></a>
-              </li>
-            </ul>      
-          </nav>
-        </header>
-        
-        <footer id='footer'>
-          <p>&copy; Jon Manock | 2015</p>
-        </footer>
-      </div>
-    </div>
     
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
