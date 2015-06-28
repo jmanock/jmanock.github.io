@@ -2,8 +2,7 @@
   "name": "jmanock-github-io",
   "private": true,
   "dependencies": {
-    "bootstrap": "~3.3.1",
-    "modernizr": "~2.8.1"
+    "bootstrap": "~3.3.1"
   },
   "devDependencies": {
     "chai": "~3.0.0",
