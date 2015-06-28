@@ -1,2 +1,0 @@
-jmanock.github.io
-=================
