@@ -4,8 +4,3 @@ dist
 .sass-cache
 bower_components
 test/bower_components
-.bowerrc
-.editorconfig
-.yo-rc.json
-.gitattributes
-.DS_Store
