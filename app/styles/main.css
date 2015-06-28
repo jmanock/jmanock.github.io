@@ -87,3 +87,36 @@ body {
     border-bottom: 0;
   }
 }
+.header{
+  background-color:#584B4F;
+  margin:-1.8em;
+}
+
+
+ul{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  list-style-type:none;
+}
+
+li{
+  float:left;
+}
+
+a:link, a:visited{
+  display:block;
+  width:120px;
+  font-weight:bold;
+  color:#FFF;
+  background-color:#584B4F;
+  text-align:center;
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase;
+  list-style-type:none;
+}
+
+a:hover, a:active{
+  color:#81C08B;
+}
