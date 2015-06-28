@@ -1,0 +1,173 @@
+
+<html>
+     <head>
+     <style>
+ #cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+}
+#cssmenu {
+  width: auto;
+  font-family: Helvetica, Arial, sans-serif;
+  color: gray;
+}
+#cssmenu.align-right ul li {
+  float: right;
+  border-right: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.22);
+}
+#cssmenu.align-right ul li a {
+  border-right: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+#cssmenu ul {
+  background: -moz-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: -webkit-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: -o-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: -ms-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: linear-gradient(to top, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu ul li {
+  float: left;
+  display: block;
+  border-right: 1px solid rgba(0, 0, 0, 0.22);
+  z-index: 1;
+}
+#cssmenu ul li::after {
+  content: "";
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  border-top-left-radius: 50% 4px;
+  border-top-right-radius: 50% 4px;
+  z-index: 2;
+  bottom: 10px;
+}
+#cssmenu ul li a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  z-index: 3;
+}
+#cssmenu ul li a:hover,
+#cssmenu ul li.active a {
+  color: gray;
+}
+#cssmenu ul li:hover::after,
+#cssmenu ul li.active::after {
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%);
+  background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%);
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: gray;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h2{
+  text-decoration: underline;
+}
+     </style>
+
+    </head>
+    <title>
+    </title>
+ 
+    <body>
+<div id='cssmenu'>
+	<ul>
+	   <li><a href='http://jmanock.github.io'><span>Home</span></a></li>
+	   <li><a href='http://jmanock.github.io'><span>Portfolio</span></a></li>
+	   <li><a href='http://jmanock.github.io'><span>Blog</span></a></li>
+	   <li><a href='http://jmanock.github.io'><span>Contact</span></a></li>
+	</ul>
+</div>
+ <div id="container"></div>
+    <script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.2.min.js"></script>
+    <script defer="defer">
+      function drawImage(imageObj) { 
+        var stage = new Kinetic.Stage({
+          container: "container",
+          width: 578,
+          height: 200
+        });
+        var layer = new Kinetic.Layer();
+
+        // darth vader
+        var darthVaderImg = new Kinetic.Image({
+          image: imageObj,
+          x: 400,
+          y: 30,
+          width: 200,
+          height: 137,
+          draggable: true
+        });
+
+        // add cursor styling
+        darthVaderImg.on('mouseover', function() {
+          document.body.style.cursor = 'pointer';
+        });
+        darthVaderImg.on('mouseout', function() {
+          document.body.style.cursor = 'default';
+        });
+
+        layer.add(darthVaderImg);
+        stage.add(layer);
+      }
+      var imageObj = new Image();
+      imageObj.onload = function() {
+        drawImage(this);
+      };
+      imageObj.src = 'http://addyosmani.com/polyfillthehtml5gaps/images/octocat.jpg';
+
+    </script>
+        <headder>
+            
+        </headder>
+   
+        <h2 id="my-first-day">My First Day</h2>
+
+<p>I never thought that I would be back in school, but here I am day one of a twelve week course. I am not sure what I expected, just keep an open mind and think of the long term advantages finishing the course will have. Day one went by really fast, everyone met each other the night before at dinner orientation, so we dove right into working and learning. </p>
+
+<p>The first week is going to be on learning git and git hub which is really cool for me. It’s something that I have always wanted to learn and been fascinated by using the terminal. We got lots of work to do tonight which I always expect. </p>
+
+        
+        <footer>
+            
+        </footer>
+    </body>
+</html>
+
+      
+
+   
