@@ -18,3 +18,20 @@ a{
 a:hover{
   color: #71AD87 !important;
 }
+
+.about{
+  border:1px red solid;
+  text-align:center;
+}
+
+.projects{
+  border:1px blue solid;
+}
+
+.projects > div:nth-child(even){
+  text-align:left;
+}
+
+.projects > div:nth-child(odd){
+  text-align:right;
+}
