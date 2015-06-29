@@ -2,12 +2,15 @@
 
 body{
   font-family:'Quicksand';
-  font-size:2em;
+  font-size:1.5em;
 }
 .navbar{
-  background-color:gray;
+  background-color:#584B4F;
 }
 
 a{
-  background-color:white;
+  color:white !important;
+}
+a:hover{
+  color: #71AD87 !important;
 }
