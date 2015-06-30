@@ -21,7 +21,8 @@ a:hover{
 }
 
 .about{
-  border:1px red solid;
+  background-color:white;
+  border:1px green solid;
   text-align:center;
   margin-bottom:30px;
 }
